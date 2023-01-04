@@ -1,0 +1,32 @@
+body {
+    background: url(background.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    background: #fff;
+    max-width: 50%;
+    border: 2px solid;
+    margin: auto;
+    border-radius: 20px;
+}
+h1, h2 {
+    font-size: 50px;
+    font-family: 'Poppins';
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 22px;
+    border-radius: 15px 0px;
+}
+button#increment-btn {
+    background: forestgreen;
+    color: #fff;
+}
+
+button#save-btn {
+    background: red;
+    color: #fff;
+}
